@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-replate-text font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F9F8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D1D9D4;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B2BFB7;
+}
+
+/* Badge and micro-transition utilities */
+.badge-available {
+  @apply bg-emerald-50 text-emerald-700 border border-emerald-200/80;
+}
+
+.badge-requested {
+  @apply bg-amber-50 text-amber-700 border border-amber-200/80;
+}
+
+.badge-accepted {
+  @apply bg-blue-50 text-blue-700 border border-blue-200/80;
+}
+
+.badge-pickedup {
+  @apply bg-indigo-50 text-indigo-700 border border-indigo-200/80;
+}
+
+.badge-completed {
+  @apply bg-[#EAF6EF] text-[#116747] border border-[#16845B]/30;
+}
+
+.badge-expired {
+  @apply bg-stone-100 text-stone-600 border border-stone-200;
+}
+
+.badge-cancelled {
+  @apply bg-rose-50 text-rose-700 border border-rose-200;
+}

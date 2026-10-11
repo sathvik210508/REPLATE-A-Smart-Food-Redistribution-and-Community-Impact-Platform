@@ -1,0 +1,22 @@
+{
+  "name": "replate-monorepo",
+  "version": "1.0.0",
+  "description": "REPLATE — Food Redistribution Platform | Team NovaNex | IETE IDEATHON 2026 | SDG 2 Zero Hunger",
+  "scripts": {
+    "start": "npm run server",
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed"
+  },
+  "keywords": [
+    "sdg-2",
+    "zero-hunger",
+    "iete-ideathon-2026",
+    "novanex",
+    "food-redistribution",
+    "mern"
+  ],
+  "author": "Team NovaNex (CBIT Hyderabad)"
+}
