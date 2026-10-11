@@ -61,21 +61,17 @@ export const NgoDashboard = () => {
   const loadData = async () => {
     try {
       setLoading(true);
-      const [donationsRes, kpisRes, requestsRes] = await Promise.all([
+      const [donationsRes, kpisRes, requestsRes, matchesRes] = await Promise.all([
         api.getDonations({ category: categoryFilter, serviceArea: areaFilter, sort: sortOption }),
         api.getNgoAnalytics(),
         api.getMyRequests(),
+        api.getRecommendedMatches().catch(() => ({ success: false })),
       ]);
 
       if (donationsRes.success) setDonations(donationsRes.donations || []);
       if (kpisRes.success) setKpis(kpisRes.kpis);
       if (requestsRes.success) setMyRequests(requestsRes.requests || []);
-
-      // If matches tab is active, load smart matches
-      if (activeTab === 'matches') {
-        const matchRes = await api.getRecommendedMatches();
-        if (matchRes.success) setMatches(matchRes.matches || []);
-      }
+      if (matchesRes && matchesRes.success) setMatches(matchesRes.matches || []);
     } catch (err) {
       console.error('Failed to load NGO dashboard data:', err);
     } finally {
@@ -131,7 +127,7 @@ export const NgoDashboard = () => {
   };
 
   const getHoursRemaining = (iso) => {
-    return Math.max(0, ((new Date(iso) - new Date()) / (1000 * 60 * 60)).toFixed(1));
+    return parseFloat(Math.max(0, (new Date(iso) - new Date()) / (1000 * 60 * 60)).toFixed(1));
   };
 
   // Filtered Discover List

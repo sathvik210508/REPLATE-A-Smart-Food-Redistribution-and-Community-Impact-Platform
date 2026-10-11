@@ -58,7 +58,9 @@ export const DonorDashboard = () => {
   };
 
   useEffect(() => {
-    loadData();
+    if (user?._id) {
+      loadData();
+    }
   }, [user?._id]);
 
   const handleOpenRequests = async (donationId) => {

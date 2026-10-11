@@ -44,16 +44,16 @@ export const Navbar = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-7 text-sm font-medium text-replate-subtext">
-          <a href="#how-it-works" className="hover:text-replate-text transition-colors">
+          <a href="/#how-it-works" className="hover:text-replate-text transition-colors">
             How It Works
           </a>
-          <a href="#benefits" className="hover:text-replate-text transition-colors">
+          <a href="/#benefits" className="hover:text-replate-text transition-colors">
             Benefits
           </a>
           <Link to="/impact" className="hover:text-replate-text transition-colors">
             Impact Analytics
           </Link>
-          <a href="#novanex" className="hover:text-replate-text transition-colors">
+          <a href="/#novanex" className="hover:text-replate-text transition-colors">
             About Team NovaNex
           </a>
         </nav>

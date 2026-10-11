@@ -4,7 +4,7 @@
       "_id": "6601b0000000000000000001",
       "name": "Chef Ramesh Kumar",
       "email": "donor@replate.org",
-      "passwordHash": "$2b$10$eeIvPGtH4CMihP582DcpNuddsWmriDFm03U81lAsZJ5ukKBwzD9fK",
+      "passwordHash": "$2b$10$yp0O16qAh7X7Xb2yj7rHcuAYJ2NnR3qMRLEjMrHZ67V/hl30V5UoO",
       "role": "donor",
       "organizationId": "6601a0000000000000000001",
       "phone": "+91 98490 12345",
@@ -15,7 +15,7 @@
       "_id": "6601b0000000000000000002",
       "name": "Priya Sharma",
       "email": "ngo@replate.org",
-      "passwordHash": "$2b$10$eeIvPGtH4CMihP582DcpNuddsWmriDFm03U81lAsZJ5ukKBwzD9fK",
+      "passwordHash": "$2b$10$yp0O16qAh7X7Xb2yj7rHcuAYJ2NnR3qMRLEjMrHZ67V/hl30V5UoO",
       "role": "ngo",
       "organizationId": "6601a0000000000000000003",
       "phone": "+91 97000 88214",
@@ -26,7 +26,7 @@
       "_id": "6601b0000000000000000003",
       "name": "Arjun Varma",
       "email": "volunteer@replate.org",
-      "passwordHash": "$2b$10$eeIvPGtH4CMihP582DcpNuddsWmriDFm03U81lAsZJ5ukKBwzD9fK",
+      "passwordHash": "$2b$10$yp0O16qAh7X7Xb2yj7rHcuAYJ2NnR3qMRLEjMrHZ67V/hl30V5UoO",
       "role": "volunteer",
       "organizationId": "6601a0000000000000000005",
       "phone": "+91 99887 76655",
@@ -37,7 +37,7 @@
       "_id": "6601b0000000000000000004",
       "name": "Dr. K. Srinivas (CBIT Ideathon Admin)",
       "email": "admin@replate.org",
-      "passwordHash": "$2b$10$eeIvPGtH4CMihP582DcpNuddsWmriDFm03U81lAsZJ5ukKBwzD9fK",
+      "passwordHash": "$2b$10$yp0O16qAh7X7Xb2yj7rHcuAYJ2NnR3qMRLEjMrHZ67V/hl30V5UoO",
       "role": "admin",
       "organizationId": null,
       "phone": "+91 94400 11223",
@@ -149,38 +149,6 @@
   ],
   "donations": [
     {
-      "_id": "6acbcfdb65347302ac9aa9f4",
-      "donorId": "6601b0000000000000000001",
-      "organizationId": "6601a0000000000000000001",
-      "title": "Fresh Paneer Dum Biryani Batch & Raita",
-      "category": "Prepared Meals",
-      "description": "Steam cooked basmati rice with high quality cottage cheese cubes, saffron, mint, and curd raita. Untouched surplus.",
-      "quantity": 50,
-      "unit": "servings",
-      "isVegetarian": true,
-      "preparationTime": "2026-10-11T17:05:15.082Z",
-      "safeConsumptionDeadline": "2026-10-11T23:05:15.084Z",
-      "storageRequirements": "Store in insulated thermal boxes",
-      "allergenInfo": "Dairy (paneer, ghee)",
-      "pickupLocation": "CBIT Main Campus Food Court, Gandipet",
-      "serviceArea": "Gandipet / CBIT",
-      "pickupWindow": {
-        "start": "2026-10-11T18:35:15.084Z",
-        "end": "2026-10-11T20:35:15.084Z"
-      },
-      "contactPerson": "Chef Ramesh Kumar",
-      "contactPhone": "+91 98490 12345",
-      "minAcceptQuantity": 20,
-      "recipientNotes": "",
-      "status": "COMPLETED",
-      "assignedRecipientId": "6601a0000000000000000003",
-      "assignedVolunteerId": "6601b0000000000000000003",
-      "matchedNgoCount": 2,
-      "requestCount": 1,
-      "createdAt": "2026-10-11T18:05:15.095Z",
-      "updatedAt": "2026-10-11T18:05:15.364Z"
-    },
-    {
       "_id": "6601c0000000000000000001",
       "donorId": "6601b0000000000000000001",
       "organizationId": "6601a0000000000000000001",
@@ -190,15 +158,15 @@
       "quantity": 45,
       "unit": "servings",
       "isVegetarian": true,
-      "preparationTime": "2026-10-11T15:52:36.983Z",
-      "safeConsumptionDeadline": "2026-10-11T22:52:36.983Z",
+      "preparationTime": "2026-10-11T16:24:28.493Z",
+      "safeConsumptionDeadline": "2026-10-11T23:24:28.493Z",
       "storageRequirements": "Store above 60°C or consume within 4 hours",
       "allergenInfo": "Contains dairy (ghee), nuts (cashew garnish)",
       "pickupLocation": "CBIT Campus Canteen Main Gate, Gandipet",
       "serviceArea": "Gandipet / CBIT",
       "pickupWindow": {
-        "start": "2026-10-11T16:52:36.983Z",
-        "end": "2026-10-11T20:52:36.983Z"
+        "start": "2026-10-11T17:24:28.493Z",
+        "end": "2026-10-11T21:24:28.493Z"
       },
       "contactPerson": "Chef Ramesh Kumar",
       "contactPhone": "+91 98490 12345",
@@ -209,8 +177,8 @@
       "assignedVolunteerId": null,
       "matchedNgoCount": 2,
       "requestCount": 1,
-      "createdAt": "2026-10-11T15:52:36.983Z",
-      "updatedAt": "2026-10-11T16:52:36.983Z"
+      "createdAt": "2026-10-11T16:24:28.493Z",
+      "updatedAt": "2026-10-11T17:24:28.493Z"
     },
     {
       "_id": "6601c0000000000000000002",
@@ -222,15 +190,15 @@
       "quantity": 30,
       "unit": "packed meals",
       "isVegetarian": true,
-      "preparationTime": "2026-10-11T13:52:36.983Z",
-      "safeConsumptionDeadline": "2026-10-12T17:52:36.983Z",
+      "preparationTime": "2026-10-11T14:24:28.493Z",
+      "safeConsumptionDeadline": "2026-10-12T18:24:28.493Z",
       "storageRequirements": "Keep in dry, cool ambient temperature",
       "allergenInfo": "Gluten (wheat)",
       "pickupLocation": "CBIT Bakery Section, Student Activity Center",
       "serviceArea": "Gandipet / CBIT",
       "pickupWindow": {
-        "start": "2026-10-11T17:52:36.983Z",
-        "end": "2026-10-12T01:52:36.983Z"
+        "start": "2026-10-11T18:24:28.493Z",
+        "end": "2026-10-12T02:24:28.493Z"
       },
       "contactPerson": "Chef Ramesh Kumar",
       "contactPhone": "+91 98490 12345",
@@ -241,8 +209,8 @@
       "assignedVolunteerId": null,
       "matchedNgoCount": 2,
       "requestCount": 0,
-      "createdAt": "2026-10-11T14:52:36.983Z",
-      "updatedAt": "2026-10-11T14:52:36.983Z"
+      "createdAt": "2026-10-11T15:24:28.493Z",
+      "updatedAt": "2026-10-11T15:24:28.493Z"
     },
     {
       "_id": "6601c0000000000000000003",
@@ -254,15 +222,15 @@
       "quantity": 25,
       "unit": "kg",
       "isVegetarian": true,
-      "preparationTime": "2026-10-11T11:52:36.983Z",
-      "safeConsumptionDeadline": "2026-10-13T17:52:36.983Z",
+      "preparationTime": "2026-10-11T12:24:28.493Z",
+      "safeConsumptionDeadline": "2026-10-13T18:24:28.493Z",
       "storageRequirements": "Cool ambient dry storage",
       "allergenInfo": "None",
       "pickupLocation": "CBIT Mess Loading Dock #2, Gandipet",
       "serviceArea": "Gandipet / CBIT",
       "pickupWindow": {
-        "start": "2026-10-11T17:52:36.983Z",
-        "end": "2026-10-12T05:52:36.983Z"
+        "start": "2026-10-11T18:24:28.493Z",
+        "end": "2026-10-12T06:24:28.493Z"
       },
       "contactPerson": "Chef Ramesh Kumar",
       "contactPhone": "+91 98490 12345",
@@ -273,8 +241,8 @@
       "assignedVolunteerId": "6601b0000000000000000003",
       "matchedNgoCount": 3,
       "requestCount": 1,
-      "createdAt": "2026-10-11T12:52:36.983Z",
-      "updatedAt": "2026-10-11T16:52:36.983Z"
+      "createdAt": "2026-10-11T13:24:28.493Z",
+      "updatedAt": "2026-10-11T17:24:28.493Z"
     },
     {
       "_id": "6601c0000000000000000004",
@@ -286,15 +254,15 @@
       "quantity": 50,
       "unit": "servings",
       "isVegetarian": true,
-      "preparationTime": "2026-10-11T14:52:36.983Z",
-      "safeConsumptionDeadline": "2026-10-11T21:52:36.983Z",
+      "preparationTime": "2026-10-11T15:24:28.493Z",
+      "safeConsumptionDeadline": "2026-10-11T22:24:28.493Z",
       "storageRequirements": "Keep covered and warm",
       "allergenInfo": "Dairy, Wheat, Cashew paste",
       "pickupLocation": "Minerva Grand Service Entrance, Road No 12, Banjara Hills",
       "serviceArea": "Banjara Hills / Jubilee Hills",
       "pickupWindow": {
-        "start": "2026-10-11T16:52:36.983Z",
-        "end": "2026-10-11T19:52:36.983Z"
+        "start": "2026-10-11T17:24:28.493Z",
+        "end": "2026-10-11T20:24:28.493Z"
       },
       "contactPerson": "Sunil Rao",
       "contactPhone": "+91 98490 54321",
@@ -305,8 +273,8 @@
       "assignedVolunteerId": "6601b0000000000000000003",
       "matchedNgoCount": 2,
       "requestCount": 1,
-      "createdAt": "2026-10-11T13:52:36.983Z",
-      "updatedAt": "2026-10-11T16:52:36.983Z"
+      "createdAt": "2026-10-11T14:24:28.493Z",
+      "updatedAt": "2026-10-11T17:24:28.493Z"
     },
     {
       "_id": "6601c0000000000000000005",
@@ -318,15 +286,15 @@
       "quantity": 65,
       "unit": "servings",
       "isVegetarian": true,
-      "preparationTime": "2026-10-10T13:52:36.983Z",
-      "safeConsumptionDeadline": "2026-10-10T19:52:36.983Z",
+      "preparationTime": "2026-10-10T14:24:28.493Z",
+      "safeConsumptionDeadline": "2026-10-10T20:24:28.493Z",
       "storageRequirements": "Refrigerated or warm",
       "allergenInfo": "None",
       "pickupLocation": "CBIT Gandipet Main Gate",
       "serviceArea": "Gandipet / CBIT",
       "pickupWindow": {
-        "start": "2026-10-10T14:52:36.983Z",
-        "end": "2026-10-10T17:52:36.983Z"
+        "start": "2026-10-10T15:24:28.493Z",
+        "end": "2026-10-10T18:24:28.493Z"
       },
       "contactPerson": "Chef Ramesh Kumar",
       "contactPhone": "+91 98490 12345",
@@ -337,8 +305,8 @@
       "assignedVolunteerId": "6601b0000000000000000003",
       "matchedNgoCount": 2,
       "requestCount": 1,
-      "createdAt": "2026-10-10T13:52:36.983Z",
-      "updatedAt": "2026-10-10T18:52:36.983Z"
+      "createdAt": "2026-10-10T14:24:28.493Z",
+      "updatedAt": "2026-10-10T19:24:28.493Z"
     },
     {
       "_id": "6601c0000000000000000006",
@@ -350,15 +318,15 @@
       "quantity": 80,
       "unit": "servings",
       "isVegetarian": true,
-      "preparationTime": "2026-10-09T17:52:36.983Z",
-      "safeConsumptionDeadline": "2026-10-09T23:52:36.983Z",
+      "preparationTime": "2026-10-09T18:24:28.493Z",
+      "safeConsumptionDeadline": "2026-10-10T00:24:28.493Z",
       "storageRequirements": "Chilled",
       "allergenInfo": "Dairy, Mustard seeds",
       "pickupLocation": "Minerva Grand Banquet Kitchen",
       "serviceArea": "Banjara Hills / Jubilee Hills",
       "pickupWindow": {
-        "start": "2026-10-09T18:52:36.983Z",
-        "end": "2026-10-09T21:52:36.983Z"
+        "start": "2026-10-09T19:24:28.493Z",
+        "end": "2026-10-09T22:24:28.493Z"
       },
       "contactPerson": "Sunil Rao",
       "contactPhone": "+91 98490 54321",
@@ -369,26 +337,11 @@
       "assignedVolunteerId": "6601b0000000000000000003",
       "matchedNgoCount": 2,
       "requestCount": 1,
-      "createdAt": "2026-10-09T17:52:36.983Z",
-      "updatedAt": "2026-10-09T22:52:36.983Z"
+      "createdAt": "2026-10-09T18:24:28.493Z",
+      "updatedAt": "2026-10-09T23:24:28.493Z"
     }
   ],
   "donationRequests": [
-    {
-      "_id": "6acbcfdb2f4f402989b5da1a",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "ngoId": "6601a0000000000000000003",
-      "requestedByUserId": "6601b0000000000000000002",
-      "status": "ACCEPTED",
-      "notes": "Our shelter van is nearby at Narsingi. Can collect within 30 minutes.",
-      "estimatedBeneficiaries": 50,
-      "pickupPreference": "Shelter Van Pickup",
-      "requestTimestamp": "2026-10-11T18:05:15.196Z",
-      "decisionTimestamp": "2026-10-11T18:05:15.245Z",
-      "decisionNotes": "Approved for Akshaya Seva Food Foundation.",
-      "createdAt": "2026-10-11T18:05:15.197Z",
-      "updatedAt": "2026-10-11T18:05:15.245Z"
-    },
     {
       "_id": "6601d0000000000000000001",
       "donationId": "6601c0000000000000000001",
@@ -397,7 +350,7 @@
       "status": "PENDING",
       "notes": "We have 40 children waiting for dinner at our Gandipet shelter center. Can pick up within 45 minutes.",
       "estimatedBeneficiaries": 40,
-      "requestTimestamp": "2026-10-11T16:52:36.983Z",
+      "requestTimestamp": "2026-10-11T17:24:28.493Z",
       "decisionTimestamp": null,
       "decisionNotes": "",
       "pickupPreference": "Our volunteer can collect at 4:30 PM"
@@ -410,8 +363,8 @@
       "status": "ACCEPTED",
       "notes": "Ideal for our daily fruit nutrition drive for elementary children.",
       "estimatedBeneficiaries": 50,
-      "requestTimestamp": "2026-10-11T14:52:36.983Z",
-      "decisionTimestamp": "2026-10-11T15:52:36.983Z",
+      "requestTimestamp": "2026-10-11T15:24:28.493Z",
+      "decisionTimestamp": "2026-10-11T16:24:28.493Z",
       "decisionNotes": "Request accepted. Pickup scheduled with NovaNex volunteer.",
       "pickupPreference": "Van pickup arranged"
     },
@@ -423,8 +376,8 @@
       "status": "ACCEPTED",
       "notes": "Immediate distribution planned for evening shelter.",
       "estimatedBeneficiaries": 50,
-      "requestTimestamp": "2026-10-11T14:52:36.983Z",
-      "decisionTimestamp": "2026-10-11T15:52:36.983Z",
+      "requestTimestamp": "2026-10-11T15:24:28.493Z",
+      "decisionTimestamp": "2026-10-11T16:24:28.493Z",
       "decisionNotes": "Food picked up and currently en route.",
       "pickupPreference": "NovaNex volunteer dispatched"
     },
@@ -436,8 +389,8 @@
       "status": "ACCEPTED",
       "notes": "Regular lunch redistribution.",
       "estimatedBeneficiaries": 65,
-      "requestTimestamp": "2026-10-10T14:52:36.983Z",
-      "decisionTimestamp": "2026-10-10T15:52:36.983Z",
+      "requestTimestamp": "2026-10-10T15:24:28.493Z",
+      "decisionTimestamp": "2026-10-10T16:24:28.493Z",
       "decisionNotes": "Handover complete and verified.",
       "pickupPreference": "Direct collection"
     },
@@ -449,323 +402,167 @@
       "status": "ACCEPTED",
       "notes": "Distributed to evening shelter.",
       "estimatedBeneficiaries": 80,
-      "requestTimestamp": "2026-10-09T19:52:36.983Z",
-      "decisionTimestamp": "2026-10-09T20:52:36.983Z",
+      "requestTimestamp": "2026-10-09T20:24:28.493Z",
+      "decisionTimestamp": "2026-10-09T21:24:28.493Z",
       "decisionNotes": "Completed successfully.",
       "pickupPreference": "Van dispatch"
     }
   ],
   "donationEvents": [
     {
-      "_id": "6acbcfdb003999c9dd8413bb",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "eventType": "COMPLETED",
-      "actorId": "6601b0000000000000000002",
-      "actorName": "Priya Sharma",
-      "actorRole": "Priya Sharma (NGO)",
-      "notes": "All 50 servings received and served for dinner at community shelter.",
-      "timestamp": "2026-10-11T18:05:15.371Z",
-      "createdAt": "2026-10-11T18:05:15.371Z",
-      "updatedAt": "2026-10-11T18:05:15.371Z"
-    },
-    {
-      "_id": "6acbcfdbdee286fc9f574056",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "eventType": "FOOD_PICKED_UP",
-      "actorId": "6601b0000000000000000003",
-      "actorName": "Arjun Varma",
-      "actorRole": "Arjun Varma (VOLUNTEER)",
-      "notes": "Insulated thermal carriers inspected. Temperature 64°C. In transit.",
-      "timestamp": "2026-10-11T18:05:15.339Z",
-      "createdAt": "2026-10-11T18:05:15.339Z",
-      "updatedAt": "2026-10-11T18:05:15.339Z"
-    },
-    {
-      "_id": "6acbcfdbf1f0dd39e5727dd3",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "eventType": "PICKUP_SCHEDULED",
-      "actorId": "6601b0000000000000000001",
-      "actorName": "REPLATE Coordination Engine",
-      "actorRole": "System Logistics Coordinator",
-      "notes": "Pickup window: 12:05 am – 02:05 am. Assigned volunteer: Arjun Varma.",
-      "timestamp": "2026-10-11T18:05:15.273Z",
-      "createdAt": "2026-10-11T18:05:15.273Z",
-      "updatedAt": "2026-10-11T18:05:15.273Z"
-    },
-    {
-      "_id": "6acbcfdb73f84046fb463b0b",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "eventType": "REQUEST_ACCEPTED",
-      "actorId": "6601b0000000000000000001",
-      "actorName": "Chef Ramesh Kumar",
-      "actorRole": "Food Donor",
-      "notes": "Accepted request from Akshaya Seva Food Foundation. Food is reserved for pickup.",
-      "timestamp": "2026-10-11T18:05:15.254Z",
-      "createdAt": "2026-10-11T18:05:15.254Z",
-      "updatedAt": "2026-10-11T18:05:15.254Z"
-    },
-    {
-      "_id": "6acbcfdb3e70cdee122678da",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "eventType": "REQUEST_SUBMITTED",
-      "actorId": "6601b0000000000000000002",
-      "actorName": "Priya Sharma",
-      "actorRole": "NGO (Akshaya Seva Food Foundation)",
-      "notes": "Requested donation for ~50 beneficiaries. Note: \"Our shelter van is nearby at Narsingi. Can collect within 30 minutes.\"",
-      "timestamp": "2026-10-11T18:05:15.216Z",
-      "createdAt": "2026-10-11T18:05:15.216Z",
-      "updatedAt": "2026-10-11T18:05:15.216Z"
-    },
-    {
-      "_id": "6acbcfdb0bd2736b6724ca4a",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "eventType": "CREATED",
-      "actorId": "6601b0000000000000000001",
-      "actorName": "Chef Ramesh Kumar",
-      "actorRole": "Food Donor (donor)",
-      "notes": "Published surplus food listing: 50 servings of \"Fresh Paneer Dum Biryani Batch & Raita\". Pickup deadline: 04:35 am.",
-      "timestamp": "2026-10-11T18:05:15.148Z",
-      "createdAt": "2026-10-11T18:05:15.149Z",
-      "updatedAt": "2026-10-11T18:05:15.149Z"
-    },
-    {
-      "_id": "6acbcce465fab530b046c2c4",
+      "_id": "6acbd45c8c5fb8a6f5ab5821",
       "donationId": "6601c0000000000000000001",
       "eventType": "CREATED",
       "actorId": "6601b0000000000000000001",
       "actorName": "Chef Ramesh Kumar",
       "actorRole": "Food Donor (CBIT Canteen)",
       "notes": "Listed 45 servings of fresh Vegetable Biryani & Kurma.",
-      "timestamp": "2026-10-11T15:52:36.983Z"
+      "timestamp": "2026-10-11T16:24:28.493Z"
     },
     {
-      "_id": "6acbcce4b95d7d6cc77d2887",
+      "_id": "6acbd45c5abaca8d114b2878",
       "donationId": "6601c0000000000000000001",
       "eventType": "REQUEST_SUBMITTED",
       "actorId": "6601b0000000000000000002",
       "actorName": "Priya Sharma",
       "actorRole": "NGO (Akshaya Seva)",
       "notes": "Submitted request for 40 beneficiaries. Pickup offered in 45 mins.",
-      "timestamp": "2026-10-11T16:52:36.983Z"
+      "timestamp": "2026-10-11T17:24:28.493Z"
     },
     {
-      "_id": "6acbcce45a2acfc55f4381ae",
+      "_id": "6acbd45c2142dd1996cbd66b",
       "donationId": "6601c0000000000000000003",
       "eventType": "CREATED",
       "actorId": "6601b0000000000000000001",
       "actorName": "Chef Ramesh Kumar",
       "actorRole": "Food Donor",
       "notes": "Listed 25 kg of fresh fruit crates.",
-      "timestamp": "2026-10-11T12:52:36.983Z"
+      "timestamp": "2026-10-11T13:24:28.493Z"
     },
     {
-      "_id": "6acbcce4458ab390e1a89395",
+      "_id": "6acbd45cbd4e9eedd9d3e6be",
       "donationId": "6601c0000000000000000003",
       "eventType": "REQUEST_SUBMITTED",
       "actorId": "6601b0000000000000000002",
       "actorName": "Priya Sharma",
       "actorRole": "NGO",
       "notes": "Requested for children nutrition program.",
-      "timestamp": "2026-10-11T14:52:36.983Z"
+      "timestamp": "2026-10-11T15:24:28.493Z"
     },
     {
-      "_id": "6acbcce4710637c0ca346b75",
+      "_id": "6acbd45c382e3e9c5ee86ab4",
       "donationId": "6601c0000000000000000003",
       "eventType": "REQUEST_ACCEPTED",
       "actorId": "6601b0000000000000000001",
       "actorName": "Chef Ramesh Kumar",
       "actorRole": "Food Donor",
       "notes": "Accepted Akshaya Seva request. Reserved.",
-      "timestamp": "2026-10-11T15:52:36.983Z"
+      "timestamp": "2026-10-11T16:24:28.493Z"
     },
     {
-      "_id": "6acbcce43c9d3bb251823e91",
+      "_id": "6acbd45c062c9ea7b4acd906",
       "donationId": "6601c0000000000000000003",
       "eventType": "PICKUP_SCHEDULED",
       "actorId": "6601b0000000000000000003",
       "actorName": "Arjun Varma",
       "actorRole": "Logistics Partner",
       "notes": "Assigned to NovaNex Swift Logistics for collection at 5:00 PM.",
-      "timestamp": "2026-10-11T16:52:36.983Z"
+      "timestamp": "2026-10-11T17:24:28.493Z"
     },
     {
-      "_id": "6acbcce49417f82b24c64e9b",
+      "_id": "6acbd45c0a5858617d290397",
       "donationId": "6601c0000000000000000004",
       "eventType": "CREATED",
       "actorId": "6601b0000000000000000001",
       "actorName": "Sunil Rao",
       "actorRole": "Food Donor (Minerva Grand)",
       "notes": "Listed 50 servings buffet surplus.",
-      "timestamp": "2026-10-11T13:52:36.983Z"
+      "timestamp": "2026-10-11T14:24:28.493Z"
     },
     {
-      "_id": "6acbcce4f7c67619de319892",
+      "_id": "6acbd45c387be3953d5e3841",
       "donationId": "6601c0000000000000000004",
       "eventType": "REQUEST_SUBMITTED",
       "actorId": "6601b0000000000000000002",
       "actorName": "Priya Sharma",
       "actorRole": "NGO",
       "notes": "Request submitted.",
-      "timestamp": "2026-10-11T14:52:36.983Z"
+      "timestamp": "2026-10-11T15:24:28.493Z"
     },
     {
-      "_id": "6acbcce43106b04c630250dd",
+      "_id": "6acbd45cae81031d8919c9a0",
       "donationId": "6601c0000000000000000004",
       "eventType": "REQUEST_ACCEPTED",
       "actorId": "6601b0000000000000000001",
       "actorName": "Sunil Rao",
       "actorRole": "Food Donor",
       "notes": "Request accepted.",
-      "timestamp": "2026-10-11T15:52:36.983Z"
+      "timestamp": "2026-10-11T16:24:28.493Z"
     },
     {
-      "_id": "6acbcce43602a28e2c163dee",
+      "_id": "6acbd45c0bd61a4e405e16e5",
       "donationId": "6601c0000000000000000004",
       "eventType": "FOOD_PICKED_UP",
       "actorId": "6601b0000000000000000003",
       "actorName": "Arjun Varma",
       "actorRole": "Volunteer / Logistics",
       "notes": "Collected 50 servings in insulated bags. In transit to Akshaya Seva shelter.",
-      "timestamp": "2026-10-11T16:52:36.983Z"
+      "timestamp": "2026-10-11T17:24:28.493Z"
     },
     {
-      "_id": "6acbcce411f074d2eb06165f",
+      "_id": "6acbd45cc862ffc94e3e839a",
       "donationId": "6601c0000000000000000005",
       "eventType": "CREATED",
       "actorId": "6601b0000000000000000001",
       "actorName": "Chef Ramesh Kumar",
       "actorRole": "Food Donor",
       "notes": "Listed 65 meal boxes.",
-      "timestamp": "2026-10-10T13:52:36.983Z"
+      "timestamp": "2026-10-10T14:24:28.493Z"
     },
     {
-      "_id": "6acbcce421551f350320d18e",
+      "_id": "6acbd45c6008e99b7218672f",
       "donationId": "6601c0000000000000000005",
       "eventType": "REQUEST_ACCEPTED",
       "actorId": "6601b0000000000000000001",
       "actorName": "Chef Ramesh Kumar",
       "actorRole": "Food Donor",
       "notes": "Accepted.",
-      "timestamp": "2026-10-10T15:52:36.983Z"
+      "timestamp": "2026-10-10T16:24:28.493Z"
     },
     {
-      "_id": "6acbcce4a4d31b58e5221084",
+      "_id": "6acbd45cf69838b0ce8d056a",
       "donationId": "6601c0000000000000000005",
       "eventType": "FOOD_PICKED_UP",
       "actorId": "6601b0000000000000000003",
       "actorName": "Arjun Varma",
       "actorRole": "Volunteer",
       "notes": "Picked up from Gandipet.",
-      "timestamp": "2026-10-10T16:52:36.983Z"
+      "timestamp": "2026-10-10T17:24:28.493Z"
     },
     {
-      "_id": "6acbcce45e9735b7c0760e8f",
+      "_id": "6acbd45ce151f9a4c4270868",
       "donationId": "6601c0000000000000000005",
       "eventType": "DELIVERY_CONFIRMED",
       "actorId": "6601b0000000000000000003",
       "actorName": "Arjun Varma",
       "actorRole": "Volunteer",
       "notes": "Delivered to shelter center.",
-      "timestamp": "2026-10-10T17:52:36.983Z"
+      "timestamp": "2026-10-10T18:24:28.493Z"
     },
     {
-      "_id": "6acbcce421ab48b7c3288576",
+      "_id": "6acbd45ce75eb892f715c6a2",
       "donationId": "6601c0000000000000000005",
       "eventType": "COMPLETED",
       "actorId": "6601b0000000000000000002",
       "actorName": "Priya Sharma",
       "actorRole": "NGO (Akshaya Seva)",
       "notes": "All 65 meals verified and served to community. 100% good quality.",
-      "timestamp": "2026-10-10T18:52:36.983Z"
+      "timestamp": "2026-10-10T19:24:28.493Z"
     }
   ],
   "notifications": [
     {
-      "_id": "6acbcfdbe5f5fdc2671a4dfc",
-      "recipientId": "6601b0000000000000000002",
-      "title": "Donation Successfully Handed Over & Served!",
-      "message": "Verified handover of 50 servings of \"Fresh Paneer Dum Biryani Batch & Raita\". Thank you for Zero Hunger impact!",
-      "eventType": "COMPLETED",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "link": "/impact",
-      "read": false,
-      "createdAt": "2026-10-11T18:05:15.400Z",
-      "updatedAt": "2026-10-11T18:05:15.400Z"
-    },
-    {
-      "_id": "6acbcfdb7895ca21ea89f3ff",
-      "recipientId": "6601b0000000000000000001",
-      "title": "Donation Tracking: COMPLETED",
-      "message": "Status update for \"Fresh Paneer Dum Biryani Batch & Raita\": All 50 servings received and served for dinner at community shelter.",
-      "eventType": "COMPLETED",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "link": "/tracking/6acbcfdb65347302ac9aa9f4",
-      "read": false,
-      "createdAt": "2026-10-11T18:05:15.386Z",
-      "updatedAt": "2026-10-11T18:05:15.386Z"
-    },
-    {
-      "_id": "6acbcfdb6dd07ffb4baf5afe",
-      "recipientId": "6601b0000000000000000001",
-      "title": "Donation Tracking: FOOD PICKED UP",
-      "message": "Status update for \"Fresh Paneer Dum Biryani Batch & Raita\": Insulated thermal carriers inspected. Temperature 64°C. In transit.",
-      "eventType": "FOOD_PICKED_UP",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "link": "/tracking/6acbcfdb65347302ac9aa9f4",
-      "read": false,
-      "createdAt": "2026-10-11T18:05:15.341Z",
-      "updatedAt": "2026-10-11T18:05:15.341Z"
-    },
-    {
-      "_id": "6acbcfdb6599cc7d94d55aa6",
-      "recipientId": "6601b0000000000000000003",
-      "title": "New Logistics Assignment",
-      "message": "Pickup scheduled for \"Fresh Paneer Dum Biryani Batch & Raita\" at CBIT Main Campus Food Court, Gandipet.",
-      "eventType": "PICKUP_ASSIGNED",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "link": "/volunteer/dashboard",
-      "read": false,
-      "createdAt": "2026-10-11T18:05:15.299Z",
-      "updatedAt": "2026-10-11T18:05:15.299Z"
-    },
-    {
-      "_id": "6acbcfdb1cbbe60c25fe952a",
-      "recipientId": "6601b0000000000000000002",
-      "title": "Donation Request Accepted!",
-      "message": "Your request for \"Fresh Paneer Dum Biryani Batch & Raita\" has been ACCEPTED! Pickup coordination is active.",
-      "eventType": "REQUEST_ACCEPTED",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "link": "/tracking/6acbcfdb65347302ac9aa9f4",
-      "read": false,
-      "createdAt": "2026-10-11T18:05:15.286Z",
-      "updatedAt": "2026-10-11T18:05:15.286Z"
-    },
-    {
-      "_id": "6acbcfdb7ddbc37ab9098292",
-      "recipientId": "6601b0000000000000000001",
-      "title": "New Donation Request Received!",
-      "message": "Akshaya Seva Food Foundation submitted a request for \"Fresh Paneer Dum Biryani Batch & Raita\". Review and accept to schedule pickup.",
-      "eventType": "NEW_REQUEST",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "link": "/donor/dashboard",
-      "read": false,
-      "createdAt": "2026-10-11T18:05:15.218Z",
-      "updatedAt": "2026-10-11T18:05:15.218Z"
-    },
-    {
-      "_id": "6acbcfdb455a4d2c960e5c47",
-      "recipientId": "6601b0000000000000000002",
-      "title": "New Surplus Food Available!",
-      "message": "Fresh Paneer Dum Biryani Batch & Raita (50 servings) is now available in Gandipet / CBIT.",
-      "eventType": "DONATION_AVAILABLE",
-      "donationId": "6acbcfdb65347302ac9aa9f4",
-      "link": "/ngo/dashboard",
-      "read": false,
-      "createdAt": "2026-10-11T18:05:15.151Z",
-      "updatedAt": "2026-10-11T18:05:15.151Z"
-    },
-    {
-      "_id": "6acbcce4f1a67a067ecbafeb",
+      "_id": "6acbd45cf2e53d49aa52b3a8",
       "recipientId": "6601b0000000000000000001",
       "title": "New Donation Request Received",
       "message": "Akshaya Seva Food Foundation requested your \"Fresh Vegetable Biryani & Kurma\" (45 servings).",
@@ -773,10 +570,10 @@
       "donationId": "6601c0000000000000000001",
       "link": "/donor/dashboard",
       "read": false,
-      "createdAt": "2026-10-11T16:52:36.983Z"
+      "createdAt": "2026-10-11T17:24:28.493Z"
     },
     {
-      "_id": "6acbcce48feddfac3a4d1c37",
+      "_id": "6acbd45c322dc93bb59acbbc",
       "recipientId": "6601b0000000000000000002",
       "title": "Donation Request Accepted!",
       "message": "Chef Ramesh Kumar accepted your request for \"Fresh Apple & Banana Fruit Crates\" (25 kg). Pickup is scheduled.",
@@ -784,10 +581,10 @@
       "donationId": "6601c0000000000000000003",
       "link": "/tracking/6601c0000000000000000003",
       "read": false,
-      "createdAt": "2026-10-11T15:52:36.983Z"
+      "createdAt": "2026-10-11T16:24:28.493Z"
     },
     {
-      "_id": "6acbcce468eb9b4909019c5b",
+      "_id": "6acbd45c06409fe8540bbdcc",
       "recipientId": "6601b0000000000000000003",
       "title": "Pickup In Transit",
       "message": "You marked \"Paneer Butter Masala Buffets\" as picked up. Delivery destination: Akshaya Seva Shelter.",
@@ -795,10 +592,10 @@
       "donationId": "6601c0000000000000000004",
       "link": "/tracking/6601c0000000000000000004",
       "read": true,
-      "createdAt": "2026-10-11T16:52:36.983Z"
+      "createdAt": "2026-10-11T17:24:28.493Z"
     },
     {
-      "_id": "6acbcce41b0141b3badb7d41",
+      "_id": "6acbd45ccca1af6a610f6622",
       "recipientId": "6601b0000000000000000004",
       "title": "Platform Audit: Donation Completed",
       "message": "Donation #6601c5 was verified and marked COMPLETED. 65 meals recorded in SDG 2 impact metric.",
@@ -806,7 +603,7 @@
       "donationId": "6601c0000000000000000005",
       "link": "/impact",
       "read": false,
-      "createdAt": "2026-10-10T18:52:36.983Z"
+      "createdAt": "2026-10-10T19:24:28.493Z"
     }
   ]
 }

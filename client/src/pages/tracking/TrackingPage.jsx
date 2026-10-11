@@ -140,6 +140,56 @@ export const TrackingPage = () => {
         </div>
       )}
 
+      {/* 7-Stage Horizontal Lifecycle Stepper */}
+      <div className="bg-white rounded-card border border-replate-border p-4 sm:p-5 shadow-subtle mb-6 overflow-x-auto">
+        <div className="flex items-center justify-between min-w-[700px] text-xs">
+          {stages.map((st, idx) => {
+            const isDone = getStageStatus(st.key);
+            const isCurrent =
+              (st.key === 'CREATED' && donation.status === 'AVAILABLE') ||
+              (st.key === 'REQUEST_SUBMITTED' && donation.status === 'REQUESTED') ||
+              (st.key === 'REQUEST_ACCEPTED' && donation.status === 'ACCEPTED') ||
+              (st.key === 'FOOD_PICKED_UP' && donation.status === 'PICKED_UP') ||
+              (st.key === 'COMPLETED' && donation.status === 'COMPLETED');
+            return (
+              <div key={st.key} className="flex items-center flex-1 last:flex-none">
+                <div className="flex flex-col items-center text-center">
+                  <div
+                    className={`w-7 h-7 rounded-full flex items-center justify-center font-bold text-[11px] transition-all ${
+                      isDone
+                        ? 'bg-[#16845B] text-white shadow-sm'
+                        : isCurrent
+                        ? 'bg-amber-100 text-amber-800 border-2 border-[#F2A44A]'
+                        : 'bg-stone-100 text-stone-400'
+                    }`}
+                  >
+                    {isDone ? <Check className="w-3.5 h-3.5" /> : idx + 1}
+                  </div>
+                  <span
+                    className={`text-[10px] mt-1.5 max-w-[85px] leading-tight ${
+                      isDone
+                        ? 'text-replate-text font-semibold'
+                        : isCurrent
+                        ? 'text-amber-800 font-bold'
+                        : 'text-stone-400'
+                    }`}
+                  >
+                    {st.label.replace(/^\d+\.\s*/, '')}
+                  </span>
+                </div>
+                {idx < stages.length - 1 && (
+                  <div
+                    className={`flex-1 h-0.5 mx-2 ${
+                      isDone ? 'bg-[#16845B]' : 'bg-stone-200'
+                    }`}
+                  />
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Main Grid: Details Header + Two Column Timeline */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Left Column: Timeline & Interactive Transitions */}

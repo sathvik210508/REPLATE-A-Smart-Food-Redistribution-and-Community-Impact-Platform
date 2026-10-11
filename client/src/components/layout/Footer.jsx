@@ -31,7 +31,7 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-2 text-xs text-replate-subtext">
               <li>
-                <a href="#how-it-works" className="hover:text-[#16845B] transition-colors">
+                <a href="/#how-it-works" className="hover:text-[#16845B] transition-colors">
                   How It Works
                 </a>
               </li>
