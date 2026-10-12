@@ -19,7 +19,7 @@ async function startServer() {
   // Initialize data persistence store & initial dataset
   await store.init();
 
-  app.listen(PORT, () => {
+  app.listen(PORT, '0.0.0.0', () => {
     console.log(`[REPLATE Server] Running on http://localhost:${PORT}`);
     console.log(`[REPLATE Server] API health at http://localhost:${PORT}/api/system/status`);
   });

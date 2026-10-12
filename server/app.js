@@ -13,7 +13,14 @@ import systemRoutes from './routes/systemRoutes.js';
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: '*',
+    credentials: true,
+    methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
+  })
+);
 app.use(express.json());
 
 // Request logger
